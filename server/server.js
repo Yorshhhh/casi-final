@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json())
 
 app.get("/home", (req,res) => {
-    res.json({"users": ["userUno","userDos","userTres","userCuatro","userCinco"]})
+    res.json({"users": ["userUno","userDos","userTres","userCuatro"]})
 })
 
 
